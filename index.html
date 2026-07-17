@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NOIR — Designer Perfume</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo">NOIR<span class="logo-dot">.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#collection">Collection</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-cta">Shop Now</button>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <section class="hero" id="home">
+    <div class="hero-bg-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-tag">New Arrival 2026</p>
+      <h1 class="hero-title">The Essence<br><em>of Elegance</em></h1>
+      <p class="hero-desc">Discover our curated collection of artisan perfumes, crafted for those who appreciate the art of sophistication.</p>
+      <div class="hero-actions">
+        <a href="#collection" class="btn btn-primary">Explore Collection</a>
+        <a href="#about" class="btn btn-ghost">Our Story</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number" data-target="50">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Unique Fragrances</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-target="12">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Years of Craft</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-target="30">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Countries</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="perfume-bottle">
+        <div class="bottle-cap"></div>
+        <div class="bottle-neck"></div>
+        <div class="bottle-body">
+          <div class="bottle-label">NOIR</div>
+          <div class="bottle-liquid"></div>
+        </div>
+        <div class="bottle-reflection"></div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-content">
+          <p class="section-tag">Our Philosophy</p>
+          <h2 class="section-title">Crafted with<br><em>Purpose</em></h2>
+          <p class="about-text">Every fragrance in our collection tells a story. We source the finest ingredients from around the world, blending tradition with modern artistry to create scents that resonate with the soul.</p>
+          <p class="about-text">Our master perfumers dedicate months to perfecting each formula, ensuring every note harmonizes to create an unforgettable olfactory experience.</p>
+          <div class="about-features">
+            <div class="feature">
+              <div class="feature-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+              </div>
+              <div>
+                <h4>Premium Ingredients</h4>
+                <p>Sourced from ethical farms worldwide</p>
+              </div>
+            </div>
+            <div class="feature">
+              <div class="feature-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              </div>
+              <div>
+                <h4>Long-Lasting</h4>
+                <p>12+ hours of captivating scent</p>
+              </div>
+            </div>
+            <div class="feature">
+              <div class="feature-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              </div>
+              <div>
+                <h4>Cruelty Free</h4>
+                <p>Never tested on animals</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-visual">
+          <div class="about-image-frame">
+            <div class="about-image-placeholder">
+              <div class="perfume-scene">
+                <div class="scene-glow"></div>
+                <div class="scene-bottle">
+                  <div class="scene-cap"></div>
+                  <div class="scene-neck"></div>
+                  <div class="scene-body">
+                    <div class="scene-label">N</div>
+                    <div class="scene-liquid"></div>
+                    <div class="scene-shine"></div>
+                  </div>
+                </div>
+                <div class="scene-shadow"></div>
+                <div class="scene-particles">
+                  <span class="particle p1"></span>
+                  <span class="particle p2"></span>
+                  <span class="particle p3"></span>
+                  <span class="particle p4"></span>
+                  <span class="particle p5"></span>
+                  <span class="particle p6"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="collection" id="collection">
+    <div class="container">
+      <p class="section-tag center">The Collection</p>
+      <h2 class="section-title center">Signature <em>Scents</em></h2>
+      <div class="collection-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="floral">Floral</button>
+        <button class="filter-btn" data-filter="woody">Woody</button>
+        <button class="filter-btn" data-filter="fresh">Fresh</button>
+        <button class="filter-btn" data-filter="oriental">Oriental</button>
+      </div>
+      <div class="collection-grid">
+
+        <div class="product-card" data-category="floral">
+          <div class="product-image">
+            <div class="product-bottle bottle-rose">
+              <div class="mini-cap"></div>
+              <div class="mini-body"><div class="mini-label">01</div></div>
+            </div>
+            <span class="product-badge">Bestseller</span>
+          </div>
+          <div class="product-info">
+            <h3>Rose Noir</h3>
+            <p class="product-notes">Bulgarian Rose · Oud · Amber</p>
+            <div class="product-footer">
+              <span class="product-price">$185</span>
+              <button class="btn btn-small">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="woody">
+          <div class="product-image">
+            <div class="product-bottle bottle-oud">
+              <div class="mini-cap"></div>
+              <div class="mini-body"><div class="mini-label">02</div></div>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3>Oud Imperial</h3>
+            <p class="product-notes">Oud · Sandalwood · Vetiver</p>
+            <div class="product-footer">
+              <span class="product-price">$220</span>
+              <button class="btn btn-small">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="fresh">
+          <div class="product-image">
+            <div class="product-bottle bottle-aqua">
+              <div class="mini-cap"></div>
+              <div class="mini-body"><div class="mini-label">03</div></div>
+            </div>
+            <span class="product-badge new">New</span>
+          </div>
+          <div class="product-info">
+            <h3>Aqua Vitae</h3>
+            <p class="product-notes">Bergamot · Sea Salt · Cedar</p>
+            <div class="product-footer">
+              <span class="product-price">$165</span>
+              <button class="btn btn-small">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="oriental">
+          <div class="product-image">
+            <div class="product-bottle bottle-amber">
+              <div class="mini-cap"></div>
+              <div class="mini-body"><div class="mini-label">04</div></div>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3>Amber Royale</h3>
+            <p class="product-notes">Amber · Vanilla · Musk</p>
+            <div class="product-footer">
+              <span class="product-price">$195</span>
+              <button class="btn btn-small">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="floral">
+          <div class="product-image">
+            <div class="product-bottle bottle-jasmine">
+              <div class="mini-cap"></div>
+              <div class="mini-body"><div class="mini-label">05</div></div>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3>Jardin Blanc</h3>
+            <p class="product-notes">Jasmine · White Tea · Musk</p>
+            <div class="product-footer">
+              <span class="product-price">$175</span>
+              <button class="btn btn-small">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="woody">
+          <div class="product-image">
+            <div class="product-bottle bottle-cedar">
+              <div class="mini-cap"></div>
+              <div class="mini-body"><div class="mini-label">06</div></div>
+            </div>
+            <span class="product-badge">Limited</span>
+          </div>
+          <div class="product-info">
+            <h3>Cedar Mystique</h3>
+            <p class="product-notes">Cedar · Leather · Tobacco</p>
+            <div class="product-footer">
+              <span class="product-price">$210</span>
+              <button class="btn btn-small">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="marquee-section">
+    <div class="marquee">
+      <div class="marquee-track">
+        <span>Free Shipping</span>
+        <span class="marquee-dot">&#9679;</span>
+        <span>Premium Gift Wrapping</span>
+        <span class="marquee-dot">&#9679;</span>
+        <span>Authenticity Guaranteed</span>
+        <span class="marquee-dot">&#9679;</span>
+        <span>Easy Returns</span>
+        <span class="marquee-dot">&#9679;</span>
+        <span>Free Shipping</span>
+        <span class="marquee-dot">&#9679;</span>
+        <span>Premium Gift Wrapping</span>
+        <span class="marquee-dot">&#9679;</span>
+        <span>Authenticity Guaranteed</span>
+        <span class="marquee-dot">&#9679;</span>
+        <span>Easy Returns</span>
+        <span class="marquee-dot">&#9679;</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <p class="section-tag center">Testimonials</p>
+      <h2 class="section-title center">What Our <em>Clients</em> Say</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial-text">"Rose Noir has become my signature scent. The longevity is incredible — I can still smell it on my clothes the next day. Absolutely worth every penny."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">S</div>
+            <div>
+              <h4>Sophia Laurent</h4>
+              <p>Paris, France</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card featured">
+          <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial-text">"I've been collecting perfumes for over a decade, and NOIR's Oud Imperial is hands down the most sophisticated woody fragrance I've ever experienced. The depth and complexity are unmatched."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">A</div>
+            <div>
+              <h4>Alexander Chen</h4>
+              <p>New York, USA</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial-text">"The gift wrapping experience alone made it special. Aqua Vitae is fresh without being overpowering — perfect for everyday elegance. My partner loved it!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">M</div>
+            <div>
+              <h4>Maya Rodriguez</h4>
+              <p>Barcelona, Spain</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="newsletter" id="contact">
+    <div class="container">
+      <div class="newsletter-content">
+        <p class="section-tag">Stay Connected</p>
+        <h2 class="section-title">Join the <em>Inner Circle</em></h2>
+        <p class="newsletter-desc">Subscribe for exclusive early access to new launches, limited editions, and a 15% welcome discount on your first order.</p>
+        <form class="newsletter-form" id="newsletterForm">
+          <div class="form-group">
+            <input type="email" placeholder="Enter your email address" required id="emailInput">
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </div>
+          <p class="form-note">No spam. Unsubscribe anytime.</p>
+        </form>
+        <div class="newsletter-success" id="newsletterSuccess">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          <p>Welcome to NOIR. Check your inbox for your discount code.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo">NOIR<span class="logo-dot">.</span></a>
+          <p>Crafting timeless fragrances for the modern connoisseur.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="#" aria-label="Twitter">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4l6.5 8L4 20h2l5.5-6.5L16 20h4l-6.5-8L20 4h-2l-5.5 6.5L8 4H4z"/></svg>
+            </a>
+            <a href="#" aria-label="Pinterest">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.24 2.65 7.86 6.39 9.29-.09-.78-.17-1.98.04-2.83.18-.78 1.2-5.07 1.2-5.07s-.31-.61-.31-1.51c0-1.42.82-2.48 1.84-2.48.87 0 1.29.65 1.29 1.43 0 .87-.56 2.18-.84 3.39-.24 1.01.5 1.83 1.49 1.83 1.79 0 3.17-1.89 3.17-4.61 0-2.41-1.73-4.1-4.21-4.1-2.87 0-4.55 2.15-4.55 4.37 0 .87.33 1.79.75 2.3.08.1.09.19.07.29l-.28 1.14c-.05.18-.15.22-.34.13-1.25-.58-2.03-2.42-2.03-3.89 0-3.16 2.3-6.07 6.63-6.07 3.48 0 6.19 2.48 6.19 5.79 0 3.45-2.18 6.23-5.2 6.23-1.02 0-1.97-.53-2.3-1.15l-.62 2.38c-.23.87-.84 1.96-1.25 2.62.94.29 1.94.45 2.97.45 5.52 0 10-4.48 10-10S17.52 2 12 2z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="#">All Fragrances</a></li>
+            <li><a href="#">For Her</a></li>
+            <li><a href="#">For Him</a></li>
+            <li><a href="#">Gift Sets</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Sustainability</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Shipping & Returns</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 NOIR Parfums. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
